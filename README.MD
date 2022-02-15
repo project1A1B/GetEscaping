@@ -1,4 +1,4 @@
 # Mini project 1 B
-Website name : Exploraholic
+Website name : GetEscaping
 Group members: Srushti S, Prerna S, Utsav K, Mayur K.
-Requirement: HTML, CSS, Javascript, Backend, MongoDb, Hosting
+Requirement: HTML, CSS, Javascript
