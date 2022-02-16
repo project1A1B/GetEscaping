@@ -1,0 +1,40 @@
+<!navbar-->
+
+<a href="#" class="logo"> <i class="fas fa-paper-plane"></i>Travel</a>
+<form action="" class="search-form">
+<input type="search" name="" placeholder="search here...." id="searchBox">
+<label for="searchBox" class="fas fa-search"></label>
+<div class="icons">
+<div class="fas fa-user" id="login-btn"></div>
+<div class="fas fa-bars" id="menu-btn"></div>
+</div>
+<nav class="navbar">
+<a href="#home">home</a>
+<a href="#packages">packages</a>
+<a href="#services">services</a>
+<a href="#gallery">gallery</a>
+<a href="#review">review</a>
+<a href="#contact">contact</a>
+<a href="#blogs">blogs</a>
+</nav>
+
+<!--Login form-->
+
+<form action="" class="login-form">
+<div class="inputBox">
+<span>username</span>
+<input type="text" placeholder="enter your name">
+</div>
+<div class="inputBox">
+<span>password</span>
+<input type="password" placeholder="enter your password">
+</div>
+<div class="remember">
+<input type="checkbox" name="" id="login-remember">
+<label for="login-remember">remember me</label>
+</div>
+<p>forget password? <a href="#">click here</a></p>
+<p>don't have an account? <a href="#">register now</a></p>
+<input type="submit" class="btn" value="login">
+</form>
+</header>

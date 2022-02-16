@@ -1,0 +1,170 @@
+.header{
+position: fixed;
+top:0; left:0; right:0;
+background:var(--bg-color-1);
+box-shadow: var(--box-shadow);
+padding: 1.5rem 7%;
+z-index: 1000;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.header .logo{
+font-weight: bolder;
+font-size: 2.5rem;
+color:var(--text-color-1);
+}
+
+.header .logo i{
+color:var(--blue);
+}
+
+.header .search-form{
+background:var(--bg-color-2);
+border-radius: .5rem;
+display: flex;
+align-items: center;
+height: 4.5rem;
+width:50rem;
+}
+
+.header .search-form input{
+height:100%;
+width:100%;
+background:none;
+text-transform: none;
+font-size: 1.5rem;
+color:var(--text-color-1);
+padding:1rem;
+}
+.header .search-form label{
+font-size: 2rem;
+margin-right: 1.5rem;
+color:var(--text-color-1);
+cursor: pointer;
+}
+
+.header .search-form label:hover{
+color:var(--blue);
+}
+
+.header .icons div{
+height:4.5rem;
+width:4.5rem;
+line-height:4.5rem;
+font-size: 2rem;
+border-radius: .5rem;
+margin-left: .5rem;
+background:var(--bg-color-2);
+color:var(--text-color-1);
+cursor: pointer;
+text-align: center;
+}
+
+.header .icons div:hover{
+color:#fff;
+background:var(--blue);
+}
+
+#search-btn{
+display:none;
+}
+.header .navbar{
+position:absolute;
+top:115%; right:7%;
+background:var(--bg-color-1);
+border-radius: .5rem;
+box-shadow: var(--box-shadow);
+width:25rem;
+transform:scale(0);
+transform-origin: top right;
+}
+
+.header .navbar.active{
+transform:scale(1);
+}
+
+.header .navbar a{
+display:block;
+margin:1rem;
+padding:1rem;
+font-size: 1.5rem;
+color:var(--text-color-1);
+border-radius: .5rem;
+}
+
+.header .navbar a:hover{
+color:var(--blue);
+background:var(--bg-color-2);
+padding-left: 2rem;
+}
+
+.header .login-form{
+position:absolute;
+top:115%; right:7%;
+background:var(--bg-color-1);
+border-radius: .5rem;
+box-shadow: var(--box-shadow);
+width:35rem;
+padding: 2rem;
+transform:scale(0);
+transform-origin: top right;
+}
+
+.header .login-form.active{
+transform:scale(1);
+}
+
+.header .login-form .inputBox{
+margin-bottom: 1rem;
+}
+.header .login-form .inputBox span{
+font-size: 1.4rem;
+color:var(--text-color-2);
+}
+.header .login-form .inputBox input{
+font-size: 1.4rem;
+color:var(--text-color-1);
+border-radius: .5rem;
+padding:1rem;
+background:var(--bg-color-2);
+width: 100%;
+text-transform: none;
+margin:.5rem 0;
+}
+
+.header .login-form .remember{
+display: flex;
+align-items: center;
+gap:.5rem;
+padding:.5rem 0;
+}
+.header .login-form .remember label{
+color:var(--text-color-2);
+font-size: 1.4rem;
+cursor: pointer;
+}
+
+.header .login-form .btn{
+width:100%;
+}
+
+.login-form p{
+padding:.5rem 0;
+font-size: 1.3rem;
+color:#666;
+}
+
+.login-form p a{
+color:var(--blue);
+}
+
+.login-form p a:hover{
+color:#333;
+text-decoration: underline;
+}
+
+.header .login-form .btn{
+width:100%;
+}
