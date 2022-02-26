@@ -17,76 +17,85 @@
 
     <!-- custom css file cdn link  -->
     <link rel="stylesheet" href="style.css">
-    
-
-    
-
 </head>
   
 <body>
+<!--     Header section starts  -->
+    
     
   <header class="header">
-<a href="#" class="logo"> <i class="fas fa-paper-plane"></i>Travel</a> 
-<form action="" class="search-form">
-<input type="search" name="" placeholder="search here...." id="searchBox">
-<label for="searchBox" class="fas fa-search"></label> 
-</form>
-<div class="icons">
-<div class="fas fa-user" id="login-btn"></div> 
-<div class="fas fa-bars" id="menu-btn"></div>
-</div>
+      
+          <a href="#" class="logo"> <i class="fas fa-paper-plane"></i>Travel</a> 
+      
+          <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here...." id="searchBox">
+                <label for="searchBox" class="fas fa-search"></label> 
+          </form>
+      
+          <div class="icons">
+               <div class="fas fa-user" id="login-btn"></div> 
+               <div class="fas fa-bars" id="menu-btn"></div>
+          </div>
       
       <!--navbar-->
-<nav class="navbar">
-<a href="#Home">home</a> 
-<a href="#Packages">packages</a>
-<a href="#Services">services</a>
-<a href="#Gallery">gallery</a>
-<a href="#Review">review</a>
-<a href="#Contact">contact</a>
-<a href="#Blogs">blogs</a>
-</nav>
+   <nav class="navbar">
+        <a href="#Home">home</a> 
+        <a href="#Packages">packages</a>
+        <a href="#Services">services</a>
+        <a href="#Gallery">gallery</a>
+        <a href="#Review">review</a>
+        <a href="#Contact">contact</a>
+        <a href="#Blogs">blogs</a>
+   </nav>
       <!--login form-->
       
-      <form action="" class="login-form">
-<div class="inputBox">
-<span>username</span>
-<input type="text" placeholder="Enter your name">
-</div>
-<div class="inputBox">
-<span>password</span>
-<input type="password" placeholder="Enter your password">
-</div>
-<div class="remember">
-<input type="checkbox" name="" id="login-remember">
-<label for="login-remember">Remember Me</label>
-</div>
-<p>forget password? <a href="#">click here</a></p>
-<p>Don't have an account? <a href="#">Register Now</a></p>
-<input type="submit" class="btn" value="login">
-</form>
+    <form action="" class="login-form">
+        
+       <div class="inputBox">
+            <span>username</span>
+            <input type="text" placeholder="Enter your name">
+       </div>
+        
+      <div class="inputBox">
+          <span>password</span>
+          <input type="password" placeholder="Enter your password">
+      </div>
+        
+      <div class="remember">
+          <input type="checkbox" name="" id="login-remember">
+          <label for="login-remember">Remember Me</label>
+      </div>
+      <p>forget password? <a href="#">click here</a></p>
+      <p>Don't have an account? <a href="#">Register Now</a></p>
+        
+      <input type="submit" class="btn" value="login">
+        
+    </form>
       
 </header>
     
-    <!--main body-->
+    <!--Home section-->
     
     <section class="home" id="home">
-<div class="content">
-<h3>To the World of an Incredible Vacation</h3>
-<p>You don’t choose where you go, the Journey chooses you</p>
-</div>
-<div class="controls">
-<span class="vid-btn active" data-src="images/home vid.mp4"></span>
-<span class="vid-btn" data-src="images/vid-2.mp4"></span>
-<span class="vid-btn" data-src="images/vid-3.mp4"></span>
-<span class="vid-btn" data-src="images/vid-4.mp4"></span>
-<span class="vid-btn" data-src="images/vid-5.mp4"></span>
-</div>
-<div class="video-container">
-<video src="images/home vid.mp4" id="video-slider" loop autoplay
-muted></video>
-</div>
-</section>
+        
+       <div class="content">
+            <h3>To the World of an Incredible Vacation</h3>
+            <p>You don’t choose where you go, the Journey chooses you</p>
+       </div>
+        
+       <div class="controls">
+            <span class="vid-btn active" data-src="images/home vid.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+       </div>
+        
+       <div class="video-container">
+           <video src="images/home vid.mp4" id="video-slider" loop autoplay muted></video>
+       </div>
+        
+    </section>
     
     
 <!--     Packages section starts  -->
@@ -97,13 +106,58 @@ muted></video>
         <div class="box-container">
 
             <div class="box" >
+              <div class="image">
+                  <img src="images/featured-amritsar.jpg"  alt="">
+                  <h3> <i class="fas fa-map-marker-alt"></i> AMRITSAR </h3>
+              </div>
+              <div class="content">
+                 <p> Amritsar is the largest and most important city in Punjab and is a major commercial, cultural, and transportation centre.
+                        It is also the centre of Sikhism and the site of the Sikhs' principal place of worship—the Harmandir Sahib, or Golden Temple.
+                 </p>
+                 <a href="amritsar.html" class="btn"> book now</a>
+               </div>
+             </div>
+            
+             <div class="box" >
                 <div class="image">
-                    <img src="images/featured-amritsar.jpg"  alt="">
-                    <h3> <i class="fas fa-map-marker-alt"></i> AMRITSAR </h3>
+                    <img src="images/featured-varanasi.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> VARANASI </h3>
                 </div>
-                    <div class="content">
-                    <p> Amritsar is the largest and most important city in Punjab and is a major commercial, cultural, and transportation centre. It is also the centre of Sikhism and the site of the Sikhs' principal place of worship—the Harmandir Sahib, or Golden Temple.</p>
-                    <a href="amritsar.html" class="btn"> book now</a>
+                <div class="content">
+                    <p> Varanasi is an ancient city on the banks of the River Ganges in Uttar Pradesh, Northern India. 
+                        It is one of the most sacred sites in India because it is believed to have been the home of Lord Shiva . 
+                        Some Hindus believe that the River Ganges pays its respects to Lord Shiva by the direction in which it flows.
+                    </p>
+                    <a href="varanasi.html" class="btn"> book now</a>
+                </div>
+               </div> 
+            
+            <div class="box" >
+                <div class="image">
+                    <img src="images/featured-kolkata.jpg"    alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> KOLKATA </h3>
+                </div>
+                <div class="content">
+                    <p> Kolkata, formerly known as Calcutta, is the educational, commercial and cultural centre of the Eastern part of India,
+                        and is the third most populous metropolitan city of India. Kolkata is a pioneer in the field of drama, arts, theatre and 
+                        literature with several nobel laureates contributing to the Kolkata culture.
+                    </p>
+                    <a href="kolkata.html" class="btn"> book now</a>
+                </div>
+             </div>
+            
+            <h4><a href="packages.html"> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                &nbsp;<strong>View more..</strong> </a>
+            </h4>
+            
             </div>
                 
            </section>
