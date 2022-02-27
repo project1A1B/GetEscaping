@@ -394,4 +394,50 @@ background:var(--blue);
     text-decoration: underline;
 }
 
-
+.services .box-container
+{ 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr ; 
+    gap:2rem; 
+} 
+.services .box-container .box
+{ 
+    background: var(--bg-color-1); 
+    border-radius: .5rem; 
+    box-shadow: var(--box-shadow); 
+    position: relative; 
+    padding:2rem; 
+} 
+.services .box-container .box span
+{ 
+    position: absolute; 
+    top:1rem; 
+    right:2rem; 
+    color:var(--text-color-2); 
+    font-weight: bolder; 
+    font-size: 5rem; 
+} 
+.services .box-container .box i
+{ 
+    height: 6rem; 
+    width: 6rem; 
+    line-height: 6rem; 
+    text-align: center;
+    font-size: 2.5rem; 
+    color:#fff; 
+    background: var(--blue); 
+    border-radius: 70%; 
+    margin-bottom: .5rem; 
+} 
+.services .box-container .box h3
+{ 
+    color:var(--text-color-1); 
+    font-size: 2.3rem; 
+    padding:.7rem 0; 
+} 
+.services .box-container .box p
+{ 
+    color:var(--text-color-2); 
+    font-size: 1.5rem; 
+    line-height: 2; 
+}
