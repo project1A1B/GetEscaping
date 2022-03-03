@@ -317,17 +317,17 @@ section{
 }
 
 .home .controls .vid-btn{
-height:2rem;
-width:2rem;
-display: inline-block;
-border-radius: 50%;
-background:#fff;
-cursor: pointer;
-margin:0 .5rem;
+    height:2rem;
+    width:2rem;
+    display: inline-block;
+    border-radius: 50%;
+    background:#fff;
+    cursor: pointer;
+    margin:0 .5rem;
 }
 
 .home .controls .vid-btn.active{
-background:var(--blue);
+    background:var(--blue);
 }
 
 .packages .box-container{
