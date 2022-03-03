@@ -290,7 +290,7 @@ section{
   font-size: 4.5rem;
   color:#fff;
   text-transform: uppercase;
-text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
+  text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
 }
 
 .home .content p{
