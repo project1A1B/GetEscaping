@@ -455,8 +455,8 @@ background:var(--blue);
 }
 
 .gallery .box-container .box img{
-height: 100%;
-width:100%;
+    height: 100%;
+    width:100%;
 }
 
 .gallery .box-container .box .content{
