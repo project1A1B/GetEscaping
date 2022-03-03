@@ -478,3 +478,29 @@ color:var(--blue);
 /* font-size: 1.5rem; */
 /* color: var(--blue); */
 }
+
+.blogs .box-container{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap:1.5rem;
+}
+.blogs .box-container .box{
+ background:var(--bg-color-1);
+ border-radius: .5rem;
+ box-shadow: var(--box-shadow);
+ padding:2rem;
+}
+.blogs .box-container .box .image{
+ height: 20rem;
+ width: 100%;
+ overflow:hidden;
+ border-radius: .5rem;
+ background: var(--bg-color-2);
+}
+.blogs .box-container .box .image img{
+ height: 100%;
+ width: 100%;
+}
+.blogs .box-container .box:hover .image img{
+ transform:scale(1.2);
+}
