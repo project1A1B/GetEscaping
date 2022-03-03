@@ -461,17 +461,17 @@ section{
 
 .gallery .box-container .box .content{
     position:absolute;
-height: 100%;
-text-align: center;
-padding:2rem;
+    height: 100%;
+    text-align: center;
+    padding:2rem;
 }
 
 .gallery .box-container .box:hover .content{
-top: 0;
+    top: 0;
 }
 
 .gallery .box-container .box .content h3{
-color:var(--blue);
+    color:var(--blue);
 }
 
 .gallery .box-container .box .content p{
