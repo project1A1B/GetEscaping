@@ -460,7 +460,7 @@ background:var(--blue);
 }
 
 .gallery .box-container .box .content{
-position:absolute;
+    position:absolute;
 height: 100%;
 text-align: center;
 padding:2rem;
