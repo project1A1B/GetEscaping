@@ -302,18 +302,18 @@ section{
 .home .video-container video{
     position: absolute;
     top:0; left: 0;
-z-index: -1;
-height: 100%;
-width:100%;
-object-fit: cover;
+    z-index: -1;
+    height: 100%;
+    width:100%;
+    object-fit: cover;
 }
 
 .home .controls{
-padding:1rem;
-border-radius: 5rem;
-background:rgba(0,0,0,.7);
-position: relative;
-top:24rem;
+    padding:1rem;
+    border-radius: 5rem;
+    background:rgba(0,0,0,.7);
+    position: relative;
+    top:24rem;
 }
 
 .home .controls .vid-btn{
