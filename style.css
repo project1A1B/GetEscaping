@@ -553,8 +553,8 @@ section{
 }
 
 .review .review-slider .slide img{
-    height: 8rem;
-    width: 8rem;
+    height: 10rem;
+    width: 10rem;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: .5rem;
