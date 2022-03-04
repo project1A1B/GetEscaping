@@ -3,7 +3,7 @@ Website name : GetEscaping
 Group members: Srushti S, Prerna S, Utsav K, Mayur K.
 Requirement: HTML, CSS, Javascript
 
-To see the website in action, please go to :
+To see the website in action, please go to :  https://project1a1b.github.io/GetEscaping/
 
 Features of this website:
 - responsive header section with search box, login/register form and toogle menu
