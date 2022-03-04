@@ -14,6 +14,7 @@ let loginForm = document.querySelector('.login-form')
    
 }
 
+ 
  let videoBtn = document.querySelectorAll('.vid-btn');
  videoBtn.forEach(btn =>{
     btn.addEventListener('click', ()=>{
