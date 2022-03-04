@@ -579,7 +579,7 @@ section{
 
 .review .review-slider .slide .stars i{
     font-size: 2rem;
-    color:var(--violet);
+    color:var(--blue);
 }
 
 .swiper-pagination-bullet-active{
