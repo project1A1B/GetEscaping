@@ -583,7 +583,7 @@ section{
 }
 
 .swiper-pagination-bullet-active{
-    background: var(--violet);
+    background: var(--blue);
 }
 
 .review .review-slider .slide h2{
