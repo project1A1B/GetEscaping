@@ -481,9 +481,9 @@ section{
 }
 
 .blogs .box-container{
- display: grid;
- grid-template-columns: 1fr 1fr 1fr;
- gap:1.5rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap:1.5rem;
 }
 
 .blogs .box-container .box{
