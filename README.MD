@@ -1,7 +1,9 @@
-# Mini project 1 B
+  Mini project 1 B
 Website name : GetEscaping
-Group members: Srushti S, Prerna S, Utsav K, Mayur K.
 Requirement: HTML, CSS, Javascript
+
+
+Group members: Srushti S, Prerna S, Utsav K, Mayur K.
 
 To see the website in action, please go to :  https://project1a1b.github.io/GetEscaping/
 
