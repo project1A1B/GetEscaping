@@ -494,11 +494,11 @@ section{
 }
 
 .blogs .box-container .box .image{
- height: 20rem;
- width: 100%;
- overflow:hidden;
- border-radius: .5rem;
- background: var(--bg-color-2);
+     height: 20rem;
+     width: 100%;
+     overflow:hidden;
+     border-radius: .5rem;
+     background: var(--bg-color-2);
 }
 
 .blogs .box-container .box .image img{
