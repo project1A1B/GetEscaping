@@ -529,17 +529,17 @@ section{
 }
 
 .blogs .box-container .box .content .icons a{
- font-size: 1.5rem;
- color:var(--text-color-2);
+     font-size: 1.5rem;
+     color:var(--text-color-2);
 }
 
 .blogs .box-container .box .content .icons a:hover{
- color:var(--blue);
+    color:var(--blue);
 }
 
 .blogs .box-container .box .content .icons a i{
- padding-right: .5rem;
- color:var(--blue);
+     padding-right: .5rem;
+     color:var(--blue);
 }
 
 .review .review-slider{
