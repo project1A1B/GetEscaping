@@ -35,7 +35,7 @@ let loginForm = document.querySelector('.login-form')
         disableOnInteraction: false,
     },
     pagination: {
-        el: ".swiper-pagination",
+         el: ".swiper-pagination",
       
     },
    
