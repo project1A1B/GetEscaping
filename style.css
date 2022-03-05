@@ -502,16 +502,16 @@ section{
 }
 
 .blogs .box-container .box .image img{
- height: 100%;
- width: 100%;
+     height: 100%;
+     width: 100%;
 }
 
 .blogs .box-container .box:hover .image img{
- transform:scale(1.2);
+    transform:scale(1.2);
 }
 
 .blogs .box-container .box .content{
- padding-top: 1rem;
+    padding-top: 1rem;
 }
 
 .blogs .box-container .box .content h3{
