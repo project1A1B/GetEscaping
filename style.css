@@ -487,10 +487,10 @@ section{
 }
 
 .blogs .box-container .box{
- background:var(--bg-color-1);
- border-radius: .5rem;
- box-shadow: var(--box-shadow);
- padding:2rem;
+    background:var(--bg-color-1);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding:2rem;
 }
 
 .blogs .box-container .box .image{
