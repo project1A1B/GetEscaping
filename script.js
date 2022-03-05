@@ -36,7 +36,9 @@ let loginForm = document.querySelector('.login-form')
     },
     pagination: {
         el: ".swiper-pagination",
+      
     },
+   
 });
 
 
