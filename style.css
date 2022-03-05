@@ -515,17 +515,17 @@ section{
 }
 
 .blogs .box-container .box .content h3{
- font-size: 2rem;
- color:var(--text-color-1);
- line-height: 1.5;
+     font-size: 2rem;
+     color:var(--text-color-1);
+     line-height: 1.5;
 }
 
 .blogs .box-container .box .content .icons{
- display: flex;
- justify-content: space-between;
- border-top: .1rem solid var(--text-color-2);
- margin-top: 2rem;
- padding-top: 1.5rem;
+     display: flex;
+     justify-content: space-between;
+     border-top: .1rem solid var(--text-color-2);
+     margin-top: 2rem;
+     padding-top: 1.5rem;
 }
 
 .blogs .box-container .box .content .icons a{
