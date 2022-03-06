@@ -452,7 +452,7 @@ section{
 .gallery .box-container .box{
     box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
     border-radius: .5rem;
-    height: 25rem;
+    height: 25rem;  
 }
 
 .gallery .box-container .box img{
