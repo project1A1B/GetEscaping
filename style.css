@@ -500,7 +500,7 @@ section{
 }
 
 .review .review-slider .slide h3{
-    font-size: 2.5rem;
+    font-size: 2.5rem; 
     color:var(--text-color-1);
 }
 
