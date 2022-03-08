@@ -47,8 +47,10 @@ var swiper = new Swiper(".brand-slider", {
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
+      
     },
-    breakpoints: {
+    breakpoints: 
+        {
         450: {
           slidesPerView: 2,
         },
@@ -60,8 +62,11 @@ var swiper = new Swiper(".brand-slider", {
         },
         1200: {
           slidesPerView: 5,
+          
         },
+          
       },
+  
 });
 
 
