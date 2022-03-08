@@ -11,6 +11,7 @@ let loginForm = document.querySelector('.login-form')
    loginForm.classList.toggle('active');
    navbar.classList.remove('active');
    searchForm.classList.remove('active'); 
+   
 }
 
  
@@ -49,8 +50,7 @@ var swiper = new Swiper(".brand-slider", {
         disableOnInteraction: false,
       
     },
-    breakpoints: 
-        {
+    breakpoints: {
         450: {
           slidesPerView: 2,
         },
