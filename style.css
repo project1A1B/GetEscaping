@@ -601,9 +601,9 @@ section{
 }
 
 .blogs .box-container .box .content h3{
-     font-size: 2rem;
-     color:var(--text-color-1);
-     line-height: 1.5;
+    font-size: 2rem;
+    color:var(--text-color-1);
+    line-height: 1.5;
 }
 
 .blogs .box-container .box .content .icons{
