@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
 
-
-
 :root{ 
     --blue:rgb(22, 234, 241);
     --text-color-1:rgb(22, 81, 83);
@@ -13,9 +11,11 @@
 
 *{
     font-family: 'Poppins', sans-serif;
-    margin:0; padding:0;
+    margin: 0; 
+    padding: 0;
     box-sizing: border-box;
-    outline: none; border:none;
+    outline: none; 
+    border: none;
     text-decoration: none;
     text-transform: capitalize;
     transition:all .2s linear;
@@ -29,38 +29,38 @@ html{
 }
 
 html::-webkit-scrollbar{
-    width:.8rem;
+    width: .8rem;
 }
 
 html::-webkit-scrollbar-track{
-    background:transparent;
+    background: transparent;
 }
 
 html::-webkit-scrollbar-thumb{
-    background:var(--blue);
+    background: var(--blue);
     border-radius: 5rem;
 }
 
 body{
-    background:var(--bg-color-2);
+    background: var(--bg-color-2);
 }
 
 body.active{
-    --text-color-1:#fff;
-    --text-color-2:#eee;
-    --bg-color-1:#333;
-    --bg-color-2:#222;
-    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.4);
+    --text-color-1: #fff;
+    --text-color-2: #eee;
+    --bg-color-1: #333;
+    --bg-color-2: #222;
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.4);
 }
 
 section{
-    padding:2rem 7%;
+    padding: 2rem 7%;
 }
 
 .heading{
     text-align: center;
     padding-bottom: 2rem;
-    color:var(--text-color-1);
+    color: var(--text-color-1);
     font-size: 4rem;
 }
 
