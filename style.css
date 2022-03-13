@@ -18,7 +18,7 @@
     border: none;
     text-decoration: none;
     text-transform: capitalize;
-    transition:all .2s linear;
+    transition: all .2s linear;
 }
 
 html{
@@ -72,7 +72,8 @@ section{
 .heading span::before{
     content: '';
     position: absolute;
-    bottom: 1rem; left: 0;
+    bottom: 1rem; 
+    left: 0;
     z-index: -1;
     background: var(--blue);
     height: 100%;
@@ -83,10 +84,10 @@ section{
 .btn{
     margin-top: 1rem;
     display: inline-block;
-    padding:.8rem 3rem;
+    padding: .8rem 3rem;
     font-size: 1.7rem;
-    color:#fff;
-    background:rgb(65 80 80);
+    color: #fff;
+    background: rgb(65 80 80);
     border-radius: .5rem;
     cursor: pointer;
 } 
@@ -97,8 +98,10 @@ section{
 
 .header{
     position: fixed;
-    top:0; left:0; right:0;
-    background:var(--bg-color-1);
+    top: 0; 
+    left: 0; 
+    right: 0;
+    background: var(--bg-color-1);
     box-shadow: var(--box-shadow);
     padding: 1.5rem 7%;
     z-index: 1000;
