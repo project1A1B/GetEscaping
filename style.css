@@ -246,7 +246,7 @@ section{
 
 .header .login-form .remember label{
     color:var(--text-color-2);
-    font-size: 1.4rem;
+    font-size: 1.4rem; 
     cursor: pointer;
 }
 
