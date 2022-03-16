@@ -627,7 +627,7 @@ section{
 }
 
 .blogs .box-container .box .content .icons a i{
-     padding-right: .5rem;
+     padding-right: .5rem; 
      color:var(--blue);
 }
  
