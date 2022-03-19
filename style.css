@@ -113,63 +113,63 @@ section{
 .header .logo{
     font-weight: bolder;
     font-size: 2.5rem;
-    color:var(--text-color-1);
+    color: var(--text-color-1);
 }
 
 .header .logo i{
-    color:var(--blue);
+    color: var(--blue);
 }
 
 .header .search-form{
-    background:var(--bg-color-2);
+    background: var(--bg-color-2);
     border-radius: .5rem;
     display: flex;
     align-items: center;
     height: 4.5rem;
-    width:50rem;
+    width: 50rem;
 }
 
 .header .search-form input{
-    height:100%;
+    height: 100%;
     width:100%;
-    background:none;
+    background: none;
     text-transform: none;
     font-size: 1.5rem;
-    color:var(--text-color-1);
-    padding:1rem;
+    color: var(--text-color-1);
+    padding: 1rem;
 }
 
 .header .search-form label{
     font-size: 2rem;
     margin-right: 1.5rem;
-    color:var(--text-color-1);
+    color: var(--text-color-1);
     cursor: pointer;
 }
 
 .header .search-form label:hover{
-    color:var(--blue);
+    color: var(--blue);
 }
 
 .header .icons div{
-    height:4.5rem;
-    width:4.5rem;
-    line-height:4.5rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
     font-size: 2rem;
     border-radius: .5rem;
     margin-left: .5rem;
-    background:var(--bg-color-2);
-    color:var(--text-color-1);
+    background: var(--bg-color-2);
+    color: var(--text-color-1);
     cursor: pointer;
     text-align: center;
 }
 
 .header .icons div:hover{
-    color:#fff;
-    background:var(--blue);
+    color: #fff;
+    background: var(--blue);
 }
 
 #search-btn{
-    display:none;
+    display: none;
 }
 
 .header .navbar{
