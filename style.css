@@ -219,7 +219,7 @@ section{
 }
 
 .header .login-form.active{
-    transform:scale(1);
+    transform: scale(1);
 }
 
 .header .login-form .inputBox{
@@ -228,54 +228,54 @@ section{
 
 .header .login-form .inputBox span{
     font-size: 1.4rem;
-    color:var(--text-color-2);
+    color: var(--text-color-2);
 }
 
 .header .login-form .inputBox input{
     font-size: 1.4rem;
-    color:var(--text-color-1);
+    color: var(--text-color-1);
     border-radius: .5rem;
-    padding:1rem;
-    background:var(--bg-color-2);
+    padding: 1rem;
+    background: var(--bg-color-2);
     width: 100%;
     text-transform: none;
-    margin:.5rem 0;
+    margin: .5rem 0;
 }
 
 .header .login-form .remember{
     display: flex;
     align-items: center;
-    gap:.5rem;
-    padding:.5rem 0;
+    gap: .5rem;
+    padding: .5rem 0;
 }
 
 .header .login-form .remember label{
-    color:var(--text-color-2);
+    color: var(--text-color-2);
     font-size: 1.4rem; 
     cursor: pointer;
 }
 
 .header .login-form .btn{
-    width:100%;
+    width: 100%;
 }
 
 .login-form p{
-    padding:.5rem 0;
+    padding: .5rem 0;
     font-size: 1.3rem;
-    color:#666;
+    color: #666;
 }
 
 .login-form  p a{
-    color:var(--blue);
+    color: var(--blue);
 }
 
 .login-form  p a:hover{
-    color:#333;
+    color: #333;
     text-decoration: underline;
 }
 
 .header .login-form .btn{
-    width:100%;
+    width: 100%;
 }
 
 .home{
@@ -294,32 +294,33 @@ section{
 
 .home .content h3{
    font-size: 4.5rem;
-   color:#fff;
+   color: #fff;
    text-transform: uppercase;
    text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
 }
 
 .home .content p{
     font-size: 2.5rem;
-    color:#fff;
-    padding:.5rem 0;
+    color: #fff;
+    padding: .5rem 0;
 }
 
 .home .video-container video{
     position: absolute;
-    top:0; left: 0;
+    top:0; 
+    left: 0;
     z-index: -1;
     height: 100%;
-    width:100%;
+    width: 100%;
     object-fit: cover;
 }
 
 .home .controls{
-    padding:1rem;
+    padding: 1rem;
     border-radius: 5rem;
-    background:rgba(0,0,0,.7);
+    background: rgba(0,0,0,.7);
     position: relative;
-    top:24rem;
+    top: 24rem;
 }
 
 .home .controls .vid-btn{
