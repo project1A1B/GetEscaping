@@ -1,331 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
-       
+
 <head>
-    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GetEscaping</title>
-    
+    <title> GetEscaping</title>
+
+    <!-- favicon -->
     <link rel="shortcut icon" href="./images/travel.ico" type="image/x-icon" />
-    
+
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
+    <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-    
+
+    <!-- custom css file cdn link  -->
     <link rel="stylesheet" href="style.css">
+
     
+
 </head>
-  
+
 <body>
-       
-<!--        HEADER SECTION STARTS  -->
-    
-   <header class="header">
-      
-          <a href="#" class="logo"> 
-              <i class="fas fa-paper-plane"></i>Travel</a>
-           <form action="" class="search-form">
-               <input type="search" name="" placeholder="search here..." id="searchBox">
-               <label for="searchBox" class="fas fa-search"></label> 
-           </form>
-           <div class="icons">
-               <div class="fas fa-user" id="login-btn"></div> 
-               <div class="fas fa-bars" id="menu-btn"></div>
-          </div> 
-     
-   <nav class = "navbar">
-        <a href = "#Home">home</a> 
-        <a href = "#Packages">packages</a>
-        <a href = "#Services">services</a>
-        <a href = "#Gallery">gallery</a>    
-        <a href = "#Review">review</a>
-        <a href = "#Contact">contact</a>
-        <a href = "#Blogs">blogs</a>
-   </nav>
-          
-<!--           LOGIN FORM CONTAINER  -->
-      
-    <form action = "" class = "login-form">
-        
-       <div class = "inputBox">
-           <span>username</span>
-           <input type = "text" placeholder = "Enter your name">
-       </div>
-        
-      <div class = "inputBox">
-          <span>password</span>
-          <input type = "password" placeholder = "Enter your password">
-      </div>
-        
-      <div class = "remember">
-          <input type = "checkbox" name = "" id = "login-remember">
-          <label for = "login-remember">Remember Me</label>
-      </div>
-      <p>forget password? <a href = "#">click here</a></p>
-      <p>Don't have an account? <a href = "#">Register Now</a></p>
-        
-      <input type = "submit" class = "btn" value = "login">
-        
-    </form>
-          
-<!--           END OF LOGIN FORM  -->
-      
+
+
+<!-- header section  -->
+
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-paper-plane"></i>Travel</a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here...." id="searchBox">
+            <label for="searchBox" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+<!-- Login form container  -->
+
+
+        <form action="" class="login-form">
+
+            <div class="inputBox">
+                <span>username</span>
+                <input type="text" placeholder="enter your name">
+            </div>
+
+            <div class="inputBox">
+                <span>password</span>
+                <input type="password" placeholder="enter your password">
+            </div>
+
+            <div class="remember">
+                <input type="checkbox" name="" id="login-remember">
+                <label for="login-remember">remember me</label>
+            </div>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+
+            <input type="submit" class="btn" value="login">
+
+        </form>
+
+
+<!-- End of Login form container  -->
     </header>
-    
-<!--        END OF HEADER SECTION  -->
-       
-<!--        HOME SECTION STARTS  -->
-    
-    <section class = "home" id = "home">
-        
-       <div class = "content">
-           <h3>To the World of an Incredible Vacation</h3>
-           <p>You don’t choose where you go, the Journey chooses you</p>
-       </div>
-        
-       <div class = "controls">
-            <span class = "vid-btn active" data-src = "images/home vid.mp4"></span>
-            <span class = "vid-btn" data-src = "images/vid-2.mp4"></span>
-            <span class = "vid-btn" data-src = "images/vid-3.mp4"></span>
-            <span class = "vid-btn" data-src = "images/vid-4.mp4"></span>
-            <span class = "vid-btn" data-src = "images/vid-5.mp4"></span>
-       </div>
-        
-       <div class = "video-container">
-           <video src = "images/home vid.mp4" id = "video-slider" loop autoplay muted></video>
-       </div>
-        
+
+
+<!-- header section ends  -->
+
+
+<!-- Home section  -->
+
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>To the world of an incredible vacation</h3>
+            <p>You don’t choose where you go, the journey chooses you</p>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/home vid.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/home vid.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+
     </section>
-       
-<!--        END OF HOME SECTION  -->
-       
-<!--        PACKAGES SECTION STARTS  -->
-   
-      <section class = "packages" id = "packages">
+
+
+<!-- End of Home section  -->
+
+
+                               
+<!-- Packages section starts  -->
+
+
+    <section class="packages" id="packages">
 
         <h1 class="heading"> our <span>packages</span> </h1>
 
         <div class="box-container">
 
             <div class="box" >
-              <div class="image">
-                  <img src="images/featured-amritsar.jpg"  alt="">
-                  <h3> <i class="fas fa-map-marker-alt"></i> AMRITSAR </h3>
-              </div>
-              <div class="content">
-                 <p> Amritsar is the largest and most important city in Punjab and is a major commercial, cultural, and transportation centre.
-                        It is also the centre of Sikhism and the site of the Sikhs' principal place of worship—the Harmandir Sahib, or Golden Temple.
-                 </p>
-                 <a href="amritsar.html" class="btn"> book now</a>
-               </div>
-             </div>
-            
-             <div class="box" >
+                <div class="image">
+                    <img src="images/featured-amritsar.jpg"  alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i> AMRITSAR </h3>
+                </div>
+                    <div class="content">
+                    <p> Amritsar is the largest and most important city in Punjab and is a major commercial, cultural, and transportation centre. It is also the centre of Sikhism and the site of the Sikhs' principal place of worship—the Harmandir Sahib, or Golden Temple.</p>
+                    <a href="amritsar.html" class="btn"> book now</a>
+                </div>
+            </div>
+
+            <div class="box" >
                 <div class="image">
                     <img src="images/featured-varanasi.jpg" alt="">
                     <h3> <i class="fas fa-map-marker-alt"></i> VARANASI </h3>
                 </div>
                 <div class="content">
-                    <p> Varanasi is an ancient city on the banks of the River Ganges in Uttar Pradesh, Northern India. 
-                        It is one of the most sacred sites in India because it is believed to have been the home of Lord Shiva . 
-                        Some Hindus believe that the River Ganges pays its respects to Lord Shiva by the direction in which it flows.
+                    <p> Varanasi is an ancient city on the banks of the River Ganges in Uttar Pradesh, Northern India. It is one of the most sacred sites in India because it is believed to have been the home of Lord Shiva . Some Hindus believe that the River Ganges pays its respects to Lord Shiva by the direction in which it flows.
                     </p>
                     <a href="varanasi.html" class="btn"> book now</a>
                 </div>
-               </div> 
-            
+            </div> 
+
             <div class="box" >
                 <div class="image">
                     <img src="images/featured-kolkata.jpg"    alt="">
                     <h3> <i class="fas fa-map-marker-alt"></i> KOLKATA </h3>
                 </div>
                 <div class="content">
-                    <p> Kolkata, formerly known as Calcutta, is the educational, commercial and cultural centre of the Eastern part of India,
-                        and is the third most populous metropolitan city of India. Kolkata is a pioneer in the field of drama, arts, theatre and 
-                        literature with several nobel laureates contributing to the Kolkata culture.
-                    </p>
+                    <p> Kolkata, formerly known as Calcutta, is the educational, commercial and cultural centre of the Eastern part of India, and is the third most populous metropolitan city of India. Kolkata is a pioneer in the field of drama, arts, theatre and literature with several nobel laureates contributing to the Kolkata culture.</p>
                     <a href="kolkata.html" class="btn"> book now</a>
                 </div>
-             </div>
-            
-            <h4> <a href="packages.html"> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
-                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
-                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
-                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
-                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                &nbsp;<strong>View more...</strong> </a>
-            </h4>
-            
+                <h4><a href="packages.html"> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<strong>View more..</strong> </a></h4>
             </div>
                 
-         </section>
+        </div>
 
-<!--        PACKAGES SECTION ENDS  -->
-       
-<!--        SERVICES SECTION STARTS  -->
-            
-    <section class="services" id="services"> 
-        <h1 class="heading"> our <span>services</span> </h1> 
-        <div class="box-container"> 
-            <div class="box" > 
-                <span>01</span> 
-                <i class="fas fa-hotel"></i> 
-                <h3>affordable hotels</h3> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p> 
-            </div> 
-            
-            <div class="box" > 
-                <span>02</span> 
-                <i class="fas fa-plane"></i> 
-                <h3>fastest travel</h3> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p> 
-            </div> 
-            
-            <div class="box" > 
-                <span>03</span> 
-                <i class="fas fa-utensils"></i> 
-                <h3>food and drinks</h3> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p> 
-            </div> 
-            
-            <div class="box" > 
-                <span>04</span> 
-                <i class="fas fa-globe"></i> 
-                <h3>around the world</h3> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p> 
-            </div> 
-            
-            <div class="box" > 
-                <span>05</span> 
-                <i class="fas fa-hiking"></i> 
-                <h3>new adventures</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p> 
-            </div> 
-            
-            <div class="box" > 
-                <span>06</span> 
-                <i class="fas fa-bullhorn"></i> 
-                <h3>safety guide</h3> 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p> 
-            </div> 
-        </div> 
-    </section> 
-       
-<!--        SERVICES SECTION ENDS  -->
-       
-       
-<!--        GALLERY SECTION STARTS  -->
-    
+    </section>
 
-    <section class="gallery" id="gallery">
 
-            <h1 class="heading"> <span>gallery</span></h1>
+<!-- Packages section ends  -->
 
-          <div class="box-container">
-             <div class="box">
-                  <img src="images/featured-agra.jpg" alt=" ">
-                    <div class="content">
-                      <h3>Agra</h3>
-                      <a href="agraphoto.html" class="btn">see more</a>
-                     </div>
-              </div>
-             <div class="box">
-                <img src="images/featured-ahmedabad.jpg" alt=" ">
-                  <div class="content">
-                    <h3>Ahmedabad</h3>
-                    <a href="ahmedabadphoto.html" class="btn">see more</a>
-                  </div>
-             </div>
-             <div class="box">
-                <img src="images/featured-ajanta and ellora caves.jpg" alt=" ">
-                  <div class="content">
-                    <h3>Ajanta and Ellora caves</h3>
-                    <a href="ajanta_and_ellora_caves_photo.html" class="btn">see more</a>
-                  </div>
-             </div>
-             <div class="box">
-                <img src="images/featured-amritsar.jpg" alt=" ">
-                   <div class="content">
-                     <h3>Amritsar</h3>
-                     <a href="amritsarphoto.html" class="btn">see more</a>
-                   </div>
-            </div>
-            <div class="box">
-                <img src="images/featured-darjeeling.jpg" alt=" ">
-                  <div class="content">
-                    <h3>Darjeeling</h3>
-                    <a href="darjeelingphoto.html" class="btn">see more</a>
-                  </div>
-            </div>
+
+<!-- services section starts  -->
+
+
+<section class="services" id="services">
+
+    <h1 class="heading"> our <span>services</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box" >
+            <span>01</span>
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        </div>
+
+        <div class="box" >
+            <span>02</span>
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        </div>
+
+        <div class="box" >
+            <span>03</span>
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        </div>
+
+        <div class="box" >
+            <span>04</span>
+            <i class="fas fa-globe"></i>
+            <h3>around the world</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        </div>
+
+        <div class="box" >
+            <span>05</span>
+            <i class="fas fa-hiking"></i>
+            <h3>new adventures</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        </div>
+
+        <div class="box" >
+            <span>06</span>
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, rem.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- services section ends -->
+
+<!-- gallery section  -->
+
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading"> <span>gallery</span></h1>
+
+    <div class="box-container">
+
         <div class="box">
-                <img src="images/featured-goa.jpg" alt=" ">
-                  <div class="content">
-                    <h3>Goa</h3>
-                    <a href="goaphoto.html" class="btn">see more</a>
-                </div>
-         </div>
-         <div class="box">
-                <img src="images/featured-kerala.jpg" alt=" ">
-                  <div class="content5">
-                    <h3>Kerala</h3>
-                    <a href="keralaphoto.html" class="btn">see more</a>
-                 </div>
+            <img src="images/featured-agra.jpg" alt="">
+            <div class="content">
+                <h3>Agra</h3>
+                <a href="agraphoto.html" class="btn">see more</a>
             </div>
-            <div class="box">
-                <img src="images/featured-mumbai.jpg" alt=" ">
-                  <div class="content">
-                    <h3>Mumbai</h3>
-                    <a href="mumbaiphoto.html" class="btn">see more</a>
-                 </div>
+        </div>
+        <div class="box">
+            <img src="images/featured-ahmedabad.jpg" alt="">
+            <div class="content">
+                <h3>Ahmedabad</h3>
+                <a href="ahmedabadphoto.html" class="btn">see more</a>
             </div>
-            <div class="box">
-                <img src="images/featured-mysore.jpg" alt=" ">
-                  <div class="content">
-                    <h3>Mysore</h3>
-                    <a href="mysorephoto.html" class="btn">see more</a>
-                  </div>
+        </div>
+        <div class="box">
+            <img src="images/featured-ajanta and ellora caves.jpg" alt="">
+            <div class="content">
+                <h3>Ajanta and Ellora caves</h3>
+                <a href="ajanta_and_ellora_caves_photo.html" class="btn">see more</a>
             </div>
-            <div class="box">
-                <img src="images/featured-new delhi.jpg" alt=" .">
-                  <div class="content">
-                    <h3>New Delhi</h3>
-                    <a href="newdelhiphoto.html" class="btn">see more</a>
-                  </div>
-              </div>
-            <div class="box">
-                <img src="images/featured-rishikesh.jpg" alt=" ">
-                <div class="content">
+        </div>
+        <div class="box">
+            <img src="images/featured-amritsar.jpg" alt="">
+            <div class="content">
+                <h3>Amritsar</h3>
+                <a href="amritsarphoto.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/featured-darjeeling.jpg" alt="">
+            <div class="content">
+                <h3>Darjeeling</h3>
+                <a href="darjeelingphoto.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/featured-goa.jpg" alt="">
+            <div class="content">
+                <h3>Goa</h3>
+                <a href="goaphoto.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/featured-kerala.jpg" alt="">
+            <div class="content">
+                <h3>Kerala</h3>
+                <a href="keralaphoto.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/featured-kolkata.jpg" alt="">
+            <div class="content">
+                <h3>Kolkata</h3>
+                <a href="kolkataphoto.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/featured-mumbai.jpg" alt="">
+            <div class="content">
+                <h3>Mumbai</h3>
+                <a href="mumbaiphoto.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/featured-mysore.jpg" alt="">
+            <div class="content">
+                <h3>Mysore</h3>
+                <a href="mysorephoto.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/featured-new delhi.jpg" alt="">
+            <div class="content">
+                <h3>New Delhi</h3>
+                <a href="newdelhiphoto.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/featured-rajasthan.jpg" alt="">
+            <div class="content">
+                <h3>Rajasthan</h3>
+                <a href="rajasthanphoto.html" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/featured-rishikesh.jpg" alt="">
+            <div class="content">
                 <h3>Rishikesh</h3>
-                <a href="rajasthanphoto.html" class="btn ">see more</a>
-                 </div>
+                <a href="rajasthanphoto.html" class="btn">see more</a>
             </div>
-            <div class="box">
-                <img src="images/featured-shimla.jpg" alt=" ">
-                <div class="content">
+        </div>
+        <div class="box">
+            <img src="images/featured-shimla.jpg" alt="">
+            <div class="content">
                 <h3>Shimla</h3>
                 <a href="shimlaphoto.html" class="btn">see more</a>
-                 </div>
             </div>
-            <div class="box">
-                 <img src="images/featured-varanasi.jpg" alt=" ">
-                   <div class="content">
-                       <h3>Varanasi</h3>
-                       <a href="varanasiphoto.html" class="btn">see more</a>
-                     </div>
-                 </div>
-             </div>
-       </section>
-       
-<!--        END OF GALLERY SECTION  -->
-       
-<!--        REVIEW SECTION STARTS  -->
-      
+        </div>
+        <div class="box">
+            <img src="images/featured-varanasi.jpg" alt="">
+            <div class="content">
+                <h3>Varanasi</h3>
+                <a href="varanasiphoto.html" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- end of gallery section  -->
+
+<!-- review section starts  -->
+
 <section class="review" id="review">
 
     <h1 class="heading"> client's <span>review</span> </h1>
@@ -396,95 +419,104 @@
     </div>
 
 </section>
-       
-<!--        END OF REVIEW SECTION  -->
-       
-<!--        CONTACT SECTION STARTS  -->
 
-    <section class="contact" id="contact">
+<!-- review section ends -->
 
-         <h1 class="heading"> <span>contact</span> us </h1>
 
-           <form action="">
+<!-- contact section starts  -->
 
-               <div class="inputBox">
-                  <input type="text" placeholder="Name">
-                  <input type="email" placeholder="email" >
-              </div>
+<section class="contact" id="contact">
 
-              <div class="inputBox">
-                 <input type="Phone-number" placeholder="Phone-number" >
-                 <input type="text" placeholder="Subject">
-              </div>
+    <h1 class="heading"> <span>contact</span> us </h1>
 
-              <textarea name="" placeholder="Your message" id="" cols="30" rows="10" ></textarea>
+    <form action="">
 
-              <input type="submit" value="send message" class="btn">
+        <div class="inputBox">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="email" >
+        </div>
 
-           </form>
+        <div class="inputBox">
+            <input type="Phone-number" placeholder="Phone-number" >
+            <input type="text" placeholder="Subject">
+        </div>
 
-     </section>
- 
-<!--        END OF CONTACT SECTION  -->
-       
-       
-<!--        BLOG SECTION  -->
-       
-       
-                <section class="blogs" id="blogs">
-                     <h1 class="heading"> our <span>blogs</span> </h1>
-                        <div class="box-container">
-                        <div class="box" >
-                         <div class="image">
-                     <img src="images/blog-agra.svg" alt="">
-                         </div>
-                     <div class="content">
-                         <h3>Agra</h3>
-                     <a href="agrablog.html" class="btn">read more</a>
-                         <div class="icons">
-                     <a href="#"> <i class="fas fa-calendar"></i> 14th May, 2021 </a>
-                     <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                          </div>
-                    </div>
-               </div>
-            
-           <div class="box" >
-                <div class="image">
-                    <img src="images/blog-darjeeling.svg" alt="">
+        <textarea name="" placeholder="Your message" id="" cols="30" rows="10" ></textarea>
+        
+        <input type="submit" value="send message" class="btn">
+
+    </form>
+
+</section>
+
+
+
+<!-- contact section ends -->
+
+
+<!-- blog section starts  -->
+
+
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box" >
+            <div class="image">
+                <img src="images/blog-agra.svg" alt="">
             </div>
-                <div class="content">
-                    <h3>Darjeeling</h3>
-                     <a href="darjeelingblog.html" class="btn">read more</a>
-                 <div class="icons">
-                     <a href=""> <i class="fas fa-calendar"></i> 27st November, 2021 </a>
-                     <a href=""> <i class="fas fa-user"></i> by admin </a>
+            <div class="content">
+                <h3>Agra</h3>
+                <a href="agrablog.html" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 14th May, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
                 </div>
             </div>
-         </div>         
+        </div>
 
-                 <div class="box" >
-                      <div class="image" >
-                         <img src="images/blog-mumbai.svg" alt="">
-                      </div>
-                      <div class="content">
-                         <h3>Mumbai</h3>
-                         <a href="mumbaiblog.html" class="btn">read more</a>
-                           <div class="icons">
-                              <a href="#"> <i class="fas fa-calendar"></i> 1st April, 2021 </a>
-                              <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                           </div>
-                       </div>
-                  </div>
-             </div>
+        <div class="box" >
+            <div class="image">
+                <img src="images/blog-darjeeling.svg" alt="">
+            </div>
+            <div class="content">
+                <h3>Darjeeling</h3>
+                <a href="darjeelingblog.html" class="btn">read more</a>
+                <div class="icons">
+                    <a href=""> <i class="fas fa-calendar"></i> 27st November, 2021 </a>
+                    <a href=""> <i class="fas fa-user"></i> by admin </a>
+                </div>
+            </div>
+        </div>
 
-    </section>
-       
-<!--        END OF BLOG SECTION  -->
-       
-<!--        BRAND SLIDER  -->
-    
-    
-  
+        <div class="box" >
+            <div class="image">
+                <img src="images/blog-mumbai.svg" alt="">
+            </div>
+            <div class="content">
+                <h3>Mumbai</h3>
+                <a href="mumbaiblog.html" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st April, 2021 </a>
+                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- blog section ends -->
+
+
+<!-- brand slider starts  -->
 <section class="brand-container">
 
     <div class="swiper-container brand-slider">
@@ -499,12 +531,12 @@
     </div>
 
 </section>
-       
-<!--        END OF BRAND SLIDER  -->
-       
-<!--        FOOTER SECTION STARTS  -->
-       
-       
+<!-- brand slider ends     -->
+
+
+
+<!-- footer section starts  -->
+
 <section class="footer">
 
     
@@ -572,19 +604,15 @@
 
 
 
-    
-       
-            
-            
-          
-    
-    
-    
-            
 
-     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <script src="script.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+
 
 
 </body>
