@@ -25,7 +25,9 @@ let loginForm = document.querySelector('.login-form')
       
     }); 
    
+   
 });
+
 
  var swiper = new Swiper(".review-slider", {
     loop:true,
@@ -41,6 +43,7 @@ let loginForm = document.querySelector('.login-form')
     },
    
 });
+
 
 var swiper = new Swiper(".brand-slider", {
     spaceBetween: 20,
