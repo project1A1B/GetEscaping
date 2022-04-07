@@ -133,7 +133,7 @@ section{
 
 .header .search-form input{
     height: 100%;
-    width:100%;
+    width: 100%;
     background: none;
     text-transform: none;
     font-size: 1.5rem;
@@ -627,7 +627,7 @@ section{
 
 .review .review-slider .slide h2{
     font-size: 1.6rem;
-    color:var(--text-color-2);
+    color: var(--text-color-2);
     line-height: 1.7;
     padding: 1rem 0;
 }
@@ -649,8 +649,8 @@ section{
    width: 100%;
    padding:1rem;
    font-size: 1.6rem;
-   color:var(--text-color-1);
-   margin:.7rem 0;
+   color: var(--text-color-1);
+   margin: .7rem 0;
    background: var(--bg-color-1);
    box-shadow: var(--box-shadow);
    text-transform: none;
@@ -669,20 +669,20 @@ section{
 .blogs .box-container{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
-   gap:1.5rem;
+   gap: 1.5rem;
 }
 
 .blogs .box-container .box{
-    background:var(--bg-color-1);
+    background: var(--bg-color-1);
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
-    padding:2rem;
+    padding: 2rem;
 }
 
 .blogs .box-container .box .image{
      height: 20rem;
      width: 100%;
-     overflow:hidden;
+     overflow: hidden;
      border-radius: .5rem;
      background: var(--bg-color-2);
 }
@@ -693,7 +693,7 @@ section{
 }
 
 .blogs .box-container .box:hover .image img{
-    transform:scale(1.2);
+    transform: scale(1.2);
 }
 
 .blogs .box-container .box .content{
@@ -702,7 +702,7 @@ section{
 
 .blogs .box-container .box .content h3{
     font-size: 2rem;
-    color:var(--text-color-1);
+    color: var(--text-color-1);
     line-height: 1.5;
 }
 
@@ -716,39 +716,39 @@ section{
 
 .blogs .box-container .box .content .icons a{
      font-size: 1.5rem;
-     color:var(--text-color-2);
+     color: var(--text-color-2);
 }
 
 .blogs .box-container .box .content .icons a:hover{
-    color:var(--blue);
+    color: var(--blue);
 }
 
 .blogs .box-container .box .content .icons a i{
      padding-right: .5rem; 
-     color:var(--blue);
+     color: var(--blue);
 }
  
 .blogdetail .box-container{
     display: grid;
-    gap:1.5rem;
+    gap: 1.5rem;
 }
 
 .blogdetail .box-container .box{
-    background:var(--bg-color-1);
+    background: var(--bg-color-1);
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
 }
 
 
 .blogdetail .box-container .box .content{
-    padding:1.5rem;
+    padding: 1.5rem;
     padding-top: 0;
 }
 
 .blogdetail .box-container .box .content p{
     font-size: 1.5rem;
-    padding:.5rem 0;
-    color:var(--text-color-1);
+    padding: .5rem 0;
+    color: var(--text-color-1);
     line-height: 1.7;
 } 
 
@@ -768,26 +768,26 @@ section{
 .footer .box-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    gap:6rem;
+    gap: 6rem;
 }
 
 .footer .box-container .box h3{
     font-size: 2.5rem;
-    color:var(--text-color-1);
-    padding:1rem 0;
+    color: var(--text-color-1);
+    padding: 1rem 0;
 }
 
 
 .footer .box-container .box a{
     display: block;
     font-size: 1.5rem;
-    color:var(--text-color-2);
-    padding:1rem 0;
+    color: var(--text-color-2);
+    padding: 1rem 0;
 }
 
 .footer .box-container .box a i{
     padding-right: .5rem;
-    color:var(--blue);
+    color: var(--blue);
 }
 
 .footer .box-container .box a:hover i{
@@ -798,14 +798,14 @@ section{
     font-size: 2rem;
     text-align: center;
     border-top: .1rem solid var(--text-color-2);
-    padding:1rem;
+    padding: 1rem;
     padding-top: 2rem;
     margin-top: 2rem;
-    color:var(--text-color-2);
+    color: var(--text-color-2);
 }
 
 .footer .credit span{
-    color:var(--blue);
+    color: var(--blue);
 }
 
  @media (max-width:991px){
@@ -815,10 +815,10 @@ section{
     }
 
     .header{
-        padding:1.5rem 2rem;
+        padding: 1.5rem 2rem;
     }
     section{
-        padding:2rem;
+        padding: 2rem;
     }
 }
 
