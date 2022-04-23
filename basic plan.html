@@ -2,7 +2,180 @@
 <html lang="en">
     
 <head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Plan</title>
+
+
+    <link rel="shortcut icon" href="./images/travel.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="plan.css" rel="stylesheet">
+    <link href="property_detail.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-paper-plane"></i>Travel</a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here...." id="searchBox">
+            <label for="searchBox" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+      
+
+        <form action="" class="login-form">
+
+            <div class="inputBox">
+               <span>username</span>
+               <input type="text" placeholder="enter your name">
+            </div>
+
+            <div class="inputBox">
+               <span>password</span>
+               <input type="password" placeholder="enter your password">
+            </div>
+
+            <div class="remember">
+                <input type="checkbox" name="" id="login-remember">
+                <label for="login-remember">remember me</label>
+            </div>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+
+            <input type="submit" class="btn" value="login">
+
+        </form>
     
+    </header>
+   <section class="basicplan">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-itemactive">
+                    <img src="images/basic plan.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="property-summary page-container">
+            <div class="row no-gutters justify-content-between">
+                <div class="star-container" title="4.8">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="interested-container">
+                    <i class="is-interested-image far fa-heart"></i>
+                    <div class="interested-text">
+                        <span class="interested-user-count">6</span> interested
+                    </div>
+                </div>
+            </div>
+            <div class="detail-container">
+                <div class="property-name">Aditya nivas</div>
+                <div class="property-address">Police Beat, Sainath Complex, Besides, SV Rd, Daulat Nagar, Borivali East,
+                    Mumbai - 400066</div>
+                <div class="property-gender">
+                    <img src="images/unisex.png" />
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="rent-container col-6">
+                    <div class="rent">Rs 1,000/-</div>
+                    <div class="rent-unit">per day</div>
+                </div>
+                <div class="button-container col-6">
+                    <a href="#" class="btn btn-primary">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="property-amenities">
+            <div class="page-container">
+                <h1>Amenities</h1>
+                <div class="row justify-content-between">
+                    <div class="col-md-auto">
+                        <h5>Building</h5>
+                        <div class="amenity-container">
+                            <img src="images/amenities/powerbackup.svg">
+                            <span>Power backup</span>
+                        </div>
+                        <div class="amenity-container">
+                            <img src="images/amenities/lift.svg">
+                            <span>Lift</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-auto">
+                        <h5>Common Area</h5>
+                        <div class="amenity-container">
+                            <img src="images/amenities/tv.svg">
+                            <span>TV</span>
+                        </div>
+                        <div class="amenity-container">
+                            <img src="images/amenities/rowater.svg">
+                            <span>Water Purifier</span>
+                        </div>
+                        <div class="amenity-container">
+                            <img src="images/amenities/dining.svg">
+                            <span>Dining</span>
+                        </div>
+                        <div class="amenity-container">
+                            <img src="images/amenities/washingmachine.svg">
+                            <span>Washing Machine</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-auto">
+                        <h5>Bedroom</h5>
+                        <div class="amenity-container">
+                            <img src="images/amenities/bed.svg">
+                            <span>Bed with Matress</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-auto">
+                        <h5>Washroom</h5>
+                        <div class="amenity-container">
+                            <img src="images/amenities/geyser.svg">
+                            <span>Geyser</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
 
 
 
